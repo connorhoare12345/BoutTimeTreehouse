@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30177A54215569280023D4DD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30177A53215569280023D4DD /* Event.swift */; };
+		30177A562157ACA50023D4DD /* eventDetails.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30177A552157ACA50023D4DD /* eventDetails.plist */; };
+		30177A58215A3E080023D4DD /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30177A57215A3E080023D4DD /* GameOverViewController.swift */; };
 		30B444BA2080D52600552B1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B444B92080D52600552B1C /* AppDelegate.swift */; };
 		30B444BC2080D52600552B1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B444BB2080D52600552B1C /* ViewController.swift */; };
 		30B444BF2080D52600552B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B444BD2080D52600552B1C /* Main.storyboard */; };
 		30B444C12080D52600552B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B444C02080D52600552B1C /* Assets.xcassets */; };
 		30B444C42080D52600552B1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B444C22080D52600552B1C /* LaunchScreen.storyboard */; };
-		30B444CC2083ECF800552B1C /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B444CB2083ECF800552B1C /* FactModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30177A53215569280023D4DD /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		30177A552157ACA50023D4DD /* eventDetails.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = eventDetails.plist; sourceTree = "<group>"; };
+		30177A57215A3E080023D4DD /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 		30B444B62080D52600552B1C /* BoutTimeTreehouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoutTimeTreehouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B444B92080D52600552B1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30B444BB2080D52600552B1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +28,6 @@
 		30B444C02080D52600552B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30B444C32080D52600552B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30B444C52080D52700552B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30B444CB2083ECF800552B1C /* FactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				30B444B92080D52600552B1C /* AppDelegate.swift */,
 				30B444BD2080D52600552B1C /* Main.storyboard */,
+				30177A57215A3E080023D4DD /* GameOverViewController.swift */,
 				30B444BB2080D52600552B1C /* ViewController.swift */,
-				30B444CB2083ECF800552B1C /* FactModel.swift */,
+				30177A53215569280023D4DD /* Event.swift */,
 				30B444C02080D52600552B1C /* Assets.xcassets */,
 				30B444C22080D52600552B1C /* LaunchScreen.storyboard */,
 				30B444C52080D52700552B1C /* Info.plist */,
+				30177A552157ACA50023D4DD /* eventDetails.plist */,
 			);
 			path = BoutTimeTreehouse;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30177A562157ACA50023D4DD /* eventDetails.plist in Resources */,
 				30B444C42080D52600552B1C /* LaunchScreen.storyboard in Resources */,
 				30B444C12080D52600552B1C /* Assets.xcassets in Resources */,
 				30B444BF2080D52600552B1C /* Main.storyboard in Resources */,
@@ -139,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30B444CC2083ECF800552B1C /* FactModel.swift in Sources */,
+				30177A58215A3E080023D4DD /* GameOverViewController.swift in Sources */,
 				30B444BC2080D52600552B1C /* ViewController.swift in Sources */,
+				30177A54215569280023D4DD /* Event.swift in Sources */,
 				30B444BA2080D52600552B1C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +290,7 @@
 				DEVELOPMENT_TEAM = 563GP8229H;
 				INFOPLIST_FILE = BoutTimeTreehouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.connorhoaredev.BoutTimeTreehouse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.connorhoare.BoutTimeTreehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,7 +305,7 @@
 				DEVELOPMENT_TEAM = 563GP8229H;
 				INFOPLIST_FILE = BoutTimeTreehouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.connorhoaredev.BoutTimeTreehouse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.connorhoare.BoutTimeTreehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

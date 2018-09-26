@@ -9,37 +9,22 @@
 import Foundation
 import GameKit
 
-struct Event {
+struct HistoricalEventModel {
     let film : String
     let date : Int
     let url : String
 }
 
-struct EventManager {
-    var currentIndex = 0
-    var shownEvent = [Int]()
-    
-    
-    let arrayOfFilms = [
-    Event(film: "Inside Out", date: 2015, url: "https://en.wikipedia.org/wiki/Inside_Out_(2015_film)"),
-    Event(film: "Django Unchained", date: 2012, url: "https://en.wikipedia.org/wiki/Django_Unchained"),
-    Event(film: "La La Land", date: 2016, url: "https://en.wikipedia.org/wiki/La_La_Land_(film)"),
-    Event(film: "Inception", date: 2010, url: "https://en.wikipedia.org/wiki/Inception"),
-    Event(film: "The Wolf of Wall Street", date: 2013, url: "https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street_(2013_film)"),
-    Event(film: "Dawn of the Planet of the Apes", date: 2014, url: "https://en.wikipedia.org/wiki/Dawn_of_the_Planet_of_the_Apes"),
-    Event(film: "War Horse", date: 2011, url: "https://en.wikipedia.org/wiki/War_Horse_(film)"),
-    Event(film: "Darkest Hour", date: 2017, url: "https://en.wikipedia.org/wiki/Darkest_Hour_(film)"),
-    Event(film: "Black Panther", date: 2018, url: "https://en.wikipedia.org/wiki/Black_Panther_(film)")
-    ]
-    
-    mutating func eventProvider()  {
-      
-        if shownEvent.count > arrayOfFilms.count {
-            currentIndex = GKRandomSource.sharedRandom().nextInt(upperBound: arrayOfFilms.count)
-            shownEvent.append(currentIndex)
-        }
-        
-        
-    }
-    
-}
+let event1 = HistoricalEventModel(film: "The Social Network", date: 2010, url: "https://en.wikipedia.org/wiki/The_Social_Network")
+let event2 = HistoricalEventModel(film: "Capote", date: 2005, url: "https://en.wikipedia.org/wiki/Capote_(film)")
+let event3 = HistoricalEventModel(film: "Gravity", date: 2013, url: "https://en.wikipedia.org/wiki/Gravity_(2013_film")
+let event4 = HistoricalEventModel(film: "Whiplash", date: 2014, url: "https://en.wikipedia.org/wiki/Whiplash_(2014_film)")
+let event5 = HistoricalEventModel(film: "Django Unchained", date: 2012, url: "https://en.wikipedia.org/wiki/Django_Unchained")
+let event6 = HistoricalEventModel(film: "Good Will Hunting", date: 1997, url: "en.wikipedia.org/wiki/Good_Will_Hunting")
+let event7 = HistoricalEventModel(film: "Deadpool", date: 2016, url: "https://en.wikipedia.org/wiki/Deadpool_(film)")
+let event8 = HistoricalEventModel(film: "The Road", date: 2009, url: "https://en.wikipedia.org/wiki/The_Road_(2009_film")
+let event9 = HistoricalEventModel(film: "The Big Short", date: 2015, url: "https://en.wikipedia.org/wiki/The_Big_Short_(film)")
+let event10 = HistoricalEventModel(film: "The Godfathe", date: 1972, url: "https://en.wikipedia.org/wiki/The_Godfather")
+
+let arrayOfEvents = [event1, event2, event3, event4, event5, event6, event7, event8, event9, event10]
+

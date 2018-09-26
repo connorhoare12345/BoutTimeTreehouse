@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>movie</key>
+		<string>The Goonies</string>
+		<key>year</key>
+		<integer>1985</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/The_Goonies</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Top Gun</string>
+		<key>year</key>
+		<integer>1986</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Top_Gun</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Robocop</string>
+		<key>year</key>
+		<integer>1987</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/RoboCop</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Die Hard</string>
+		<key>year</key>
+		<integer>1988</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Die_Hard</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Uncle Buck</string>
+		<key>year</key>
+		<integer>1989</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Uncle_Buck</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Drop Dead Fred</string>
+		<key>year</key>
+		<integer>1991</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Drop_Dead_Fred</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>White Men Can&apos;t Jump</string>
+		<key>year</key>
+		<real>1992</real>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/White_Men_Can%27t_Jump</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Pulp Fiction</string>
+		<key>year</key>
+		<real>1994</real>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Pulp_Fiction</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Braveheart</string>
+		<key>year</key>
+		<integer>1995</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Braveheart</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Independence Day</string>
+		<key>year</key>
+		<integer>1996</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Independence_Day_(1996_film)</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Titanic</string>
+		<key>year</key>
+		<integer>1997</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Titanic_(1997_film)</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Saving Private Ryan</string>
+		<key>year</key>
+		<real>1998</real>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Saving_Private_Ryan</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>The Matrix</string>
+		<key>year</key>
+		<integer>1999</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/The_Matrix</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Gladiator</string>
+		<key>year</key>
+		<integer>2000</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Gladiator_(2000_film)</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>School Of Rock</string>
+		<key>year</key>
+		<integer>2003</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/School_of_Rock</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Troy</string>
+		<key>year</key>
+		<integer>2004</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Troy_(film)</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>The Dark Knight</string>
+		<key>year</key>
+		<integer>2008</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/The_Dark_Knight_(film)</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Avatar</string>
+		<key>year</key>
+		<integer>2009</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Avatar_(2009_film)</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>In Time</string>
+		<key>year</key>
+		<integer>2011</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/In_Time</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Django Unchained</string>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Django_Unchained</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>The Martian</string>
+		<key>year</key>
+		<integer>2015</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/The_Martian_(film)</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Ready Player One</string>
+		<key>year</key>
+		<integer>2018</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Ready_Player_One_(film)</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>La La Land</string>
+		<key>year</key>
+		<integer>2016</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/La_La_Land_(film)</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>300</string>
+		<key>year</key>
+		<integer>2006</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/300_(film)</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Into the Wild</string>
+		<key>year</key>
+		<integer>2007</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Into_the_Wild_(film)</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Escape from Alcatraz</string>
+		<key>year</key>
+		<integer>1979</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Escape_from_Alcatraz_(film)</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Lawrence of Arabia</string>
+		<key>year</key>
+		<integer>1962</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Lawrence_of_Arabia_(film)</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Midnight Express</string>
+		<key>year</key>
+		<integer>1978</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Midnight_Express_(film)</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Schindlers List</string>
+		<key>year</key>
+		<integer>1993</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Schindler%27s_List</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Catch Me If You Can</string>
+		<key>year</key>
+		<integer>2002</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Catch_Me_If_You_Can</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>A Beautiful Mind</string>
+		<key>year</key>
+		<integer>2001</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/A_Beautiful_Mind_(film)</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>American Sniper</string>
+		<key>year</key>
+		<integer>2014</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/American_Sniper</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>12 Years a Slave</string>
+		<key>year</key>
+		<integer>2013</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/12_Years_a_Slave_(film)</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Capote</string>
+		<key>year</key>
+		<integer>2005</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Capote_(film)</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Goodfellas</string>
+		<key>year</key>
+		<integer>1990</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Goodfellas</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>127 Hours</string>
+		<key>year</key>
+		<integer>2010</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/127_Hours</string>
+	</dict>
+	<dict>
+		<key>movie</key>
+		<string>Dunkirk</string>
+		<key>year</key>
+		<integer>2017</integer>
+		<key>url</key>
+		<string>https://en.wikipedia.org/wiki/Dunkirk_(2017_film)</string>
+	</dict>
+</array>
+</plist>
